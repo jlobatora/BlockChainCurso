@@ -56,4 +56,5 @@ contract data_structures {
     function assingDataStructure (uint _id, string memory _name, string memory _email) public {
         address_dataStructure[msg.sender] = Customer(_id, _name, _email);
     }
+    
 }
